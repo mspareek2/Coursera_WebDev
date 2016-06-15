@@ -9,13 +9,14 @@ h1{
 }
 .container {
 	
-	border: 1px solid black;	
+	
 	
 	
 }
 
 .row{
 	width: 100%;
+	position: relative;	
 }
 
 .row > div{
@@ -39,7 +40,7 @@ h1{
 @media (min-width: 992px){
 	.col-lg-4{
 		float: left;
-		border: 1px solid black;
+		
 			
 	}
 
@@ -55,6 +56,16 @@ h1{
 	top:7%;
 	right:5%;
 	background-color: red;
+	}
+
+	footer {
+	position : fixed;
+    bottom : 0;
+    height : 5%;
+    width: 100%;
+    margin-top : 10%;
+   	background-color: rgb(128,124,110);
+
 	}
 }
 
@@ -83,7 +94,19 @@ h1{
 	top:8%;
 	right:5%;
 	background-color: red;
+	font-size: 1em;
 	}
+
+	footer {
+	position : fixed;
+    bottom : 0;
+    background-color: rgb(128,124,110);
+    height : 5%;
+    width: 100%;
+    margin-top : 10%;
+
+	
+}
 	
 }
 
@@ -97,13 +120,19 @@ h1{
 		top:0%;
 		right:5%;
 		background-color: red;
+		font-size: 0.75em;
 	}
+
+	footer {
+	position : fixed;
+    margin-top : 40px;
+   	background-color: rgb(128,124,110);
+   	bottom : 0;
+    height : 10%;
+    width: 100%;
+    margin-top : 100%;
+
+	
+}
 }
 
-footer {
-	height: 20%;
-	background-color: rgb(128,124,110);
-	bottom: 0;
-	left: 0;
-	clear: left;
-}
